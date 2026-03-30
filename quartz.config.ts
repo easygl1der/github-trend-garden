@@ -16,7 +16,8 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "zh-CN",
-    baseUrl: "easygl1der.github.io/github-trend-garden",
+    baseUrl: "easygl1der.github.io/github-trend-garden/",
+    publicPath: "/github-trend-garden/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
